@@ -30,7 +30,7 @@ Both models are trained on years 7–8 and validated against held-out year 9, wi
     ├── euMTPL.rda                     data file 
     ├── fit.modle.reduced.rds          saved model fit 
     ├── fitted.model.full.rds          saved model fit 
-    └── RESULT.ipynb                   full R analysis, code + output
+    └── RESULT.ipynb                   full Python analysis, code + output
 
 ```
 
@@ -44,7 +44,7 @@ Both models are trained on years 7–8 and validated against held-out year 9, wi
 
 ## Requirements
 
-- R (≥ 4.6), packages: `car`, `statmod`
+- Python (≥ 3.10), packages: `numpy`, `pandas`, `scipy`, `statsmodels`, `matplotlib`, `pyreadr`
 
 ## Author's note
 
